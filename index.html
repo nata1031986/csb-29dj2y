@@ -1,54 +1,137 @@
-<!DOCTYPE <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
-
   <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <script src="https://kit.fontawesome.com/823caa4f71.js" crossorigin="anonymous"></script>
-      <link rel="stylesheet" href="style.css">
-      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-      <title>Header</title>
-      <style>
-          nav li {
-              display:inline;
-              list-style: none;
-              line-height: 42px;
-              margin-left: 15px;
-          }
-          nav ul {
-              padding: 0;
-              margin:0;
-          }
-       nav a {
-          text-decoration: none;
-          color:#272142;
-       }
-       nav a:hover, nav li.active a {
-          color: purple;
-          transition:all 100ms ease-in-out;
-       }
-    
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/823caa4f71.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <title>Header</title>
+    <style>
+      nav li {
+        display: inline;
+        list-style: none;
+        line-height: 42px;
+        margin-left: 15px;
+      }
+
+      nav ul {
+        padding: 0;
+        margin: 0;
+      }
+
+      nav a {
+        text-decoration: none;
+        color: #272142;
+      }
+
+      nav a:hover,
+      nav li.active a {
+        color: purple;
+        transition: all 100ms ease-in-out;
+      }
+      #footer-a:hover {
+  color: red;
+}
+footer .social-links a {
+  margin: 0 20px;
+  color: purple;
+  background-color:rosybrown;
+  padding:10px 14px;
+  font-size: 18px;
   
-      </style>
+  border-radius: 50%;
+}
+footer .social-links a:hover {
+  
+  background-color:black;
+  transition: all 150ms ease-in-out;
+
+}
+footer .contact-box {
+  background-color: #e7eaf6;
+  padding:30px 120px;
+  border-radius: 10px;
+}
+@media (max-width: 768px) {
+  #contact {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+    </style>
   </head>
-  <body>
-      
-          <div class = "container">
-  <nav class ="d-flex justify-content-between mt-3">
-          
-    <i class="fa-solid fa-microchip d-none d-sm-block fs-1" id="logo"></i>
-          <ul>
-              <li class = "active">
-              <a href="">Home</a>
-              </li>
-              <li>
-                  <a href="">Work
-                  </a>
-                  </li>
-              <li>
-                  <a href="">About</li></a>
-          </ul>
-          </div>
+
+  <body class="d-flex flex-column h-100">
+    <div class="container">
+      <nav class="d-flex justify-content-between mt-3">
+        <i class="fa-solid fa-microchip d-none d-sm-block fs-1" id="logo"></i>
+        <ul>
+          <li class="active">
+            <a href="">Home</a>
+          </li>
+          <li>
+            <a href="">Work</a>
+          </li>
+          <li>
+            <a href="">About</a>
+          </li>
+        </ul>
       </nav>
+    </div>
+    <div class="content">
+     
+    </div>
+    <br>
+      <br>  
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+     
+      
+    <footer>
+        
+          <div class = "contact-box d-flex justify-content-between mb-5">
+            <div>
+<h4 class = "d-none d-sm-block">Work Inquiry</h4>
+<p class = "text-muted mt-2 d-none d-sm-block">Let's work together</p>
+          </div>
+          <div>
+<a href = "" class="btn btn-primary" id="contact"> Contact</a>
+          
+          </div>
+        </div>
+        <div class = "d-flex justify-content-center mb-5"
+          <a href="mailto:nata130@gmail.com" id="footer-a" class="text-decoration-none text-dark">nata130@gmail.com</a>
+        </div>
+          <div class="social-links d-flex fs-2 justify-content-center">
+            <a href=""><i class="fa-brands fa-google-plus-g text-danger"></i></a>
+            <a href=""><i class="fa-brands fa-facebook text-primary"></i></a>
+            <a href=""><i class="fa-brands fa-instagram text-danger"></i></a>
+          </div>
+        </footer>
+      </div>
+    </div>
   </body>
-  </html>
+</html>
